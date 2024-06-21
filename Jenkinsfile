@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        GCR_CREDENTIALS_ID = 'gcp/yaser-week3-secret' // The ID you provided in Jenkins credentials
+        GCR_CREDENTIALS_ID = 'yaser-week3-secret' // The ID you provided in Jenkins credentials
         IMAGE_NAME = 'yaser-test-build-1'
         GCR_URL = 'gcr.io/lbg-mea-build-c19'
     }
